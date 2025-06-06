@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body style="background-color: black">
+    <div class="box">
+      <div class="child header">
+        <hr class="vertical" />
+        <p class="title">YAY! It's BOGO</p>
+        <hr class="vertical" />
+      </div>
+
+      <div class="child">
+        <div class="sub-child">
+          <div class="sub-child-main">
+            <div class="radio-section">
+              <input type="radio" name="unit" id="one" />
+              <div>
+                <p class="units">1 Unit <span class="offer">10% Off</span></p>
+                <p class="sub-title">Standard Price</p>
+              </div>
+            </div>
+            <div class="price-section">
+              <p class="discount-price">$10.00 USD</p>
+              <p class="actual-price">$24.00 USD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="child active" style="position: relative">
+        <div class="sub-child">
+          <div class="sub-child-main">
+            <div class="radio-section">
+              <input type="radio" name="unit" id="two" checked />
+              <div>
+                <p class="units">2 Unit <span class="offer">20% Off</span></p>
+              </div>
+            </div>
+            <div class="price-section">
+              <p class="discount-price">$18.00 USD</p>
+              <p class="actual-price">$24.00 USD</p>
+            </div>
+          </div>
+        </div>
+        <div id="popular">MOST POPULAR</div>
+      </div>
+
+      <div class="child">
+        <div class="sub-child">
+          <div class="sub-child-main">
+            <div class="radio-section">
+              <input type="radio" name="unit" id="three" />
+              <div>
+                <p class="units">3 Unit <span class="offer">30% Off</span></p>
+              </div>
+            </div>
+            <div>
+              <p class="discount-price">$24.00 USD</p>
+              <p class="actual-price">$24.00 USD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="text">
+          <p style="color: #ff6b82">Free Delivery</p>
+          <p id="total"></p>
+        </div>
+        <button type="button">&#x2b; Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
